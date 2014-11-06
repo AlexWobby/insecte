@@ -1,4 +1,4 @@
-<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mcTableau" itemID="522f57b2-000001da" lastModified="1378836218">
+<DOMSymbolItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ns.adobe.com/xfl/2008/" name="mcTableau" itemID="522f57b2-000001da" lastModified="1415301289">
   <timeline>
     <DOMTimeline name="mcTableau">
       <layers>
@@ -6,15 +6,15 @@
           <frames>
             <DOMFrame index="0" keyMode="9728">
               <elements>
-                <DOMStaticText fontRenderingMode="standard" width="63" height="46.7" isSelectable="false">
+                <DOMStaticText fontRenderingMode="standard" left="-4.25" width="67.25" height="43.2" isSelectable="false">
                   <matrix>
-                    <Matrix tx="7" ty="6.9"/>
+                    <Matrix tx="7" ty="9.4"/>
                   </matrix>
                   <textRuns>
                     <DOMTextRun>
                       <characters>Points:&#xD;Vies:</characters>
                       <textAttrs>
-                        <DOMTextAttrs alignment="right" aliasText="false" size="20" bitmapSize="400" face="_sans" fillColor="#FFFFFF"/>
+                        <DOMTextAttrs alignment="right" aliasText="false" lineSpacing="7" size="16" bitmapSize="320" face="CourierNewPSMT"/>
                       </textAttrs>
                     </DOMTextRun>
                   </textRuns>
@@ -32,7 +32,7 @@
                     </DOMTextRun>
                   </textRuns>
                 </DOMDynamicText>
-                <DOMDynamicText name="txtVies" selected="true" fontRenderingMode="standard" width="27" height="22.35" isSelectable="false">
+                <DOMDynamicText name="txtVies" fontRenderingMode="standard" width="27" height="22.35" isSelectable="false">
                   <matrix>
                     <Matrix tx="74" ty="31.25"/>
                   </matrix>
@@ -56,14 +56,20 @@
                 <DOMShape>
                   <fills>
                     <FillStyle index="1">
-                      <SolidColor alpha="0.247058823529412"/>
+                      <RadialGradient>
+                        <matrix>
+                          <Matrix a="0.114501953125" d="0.114501953125" tx="56" ty="31"/>
+                        </matrix>
+                        <GradientEntry color="#FFFFFF" ratio="0"/>
+                        <GradientEntry ratio="1"/>
+                      </RadialGradient>
                     </FillStyle>
                   </fills>
                   <strokes>
                     <StrokeStyle index="1">
                       <SolidStroke scaleMode="normal" weight="3">
                         <fill>
-                          <SolidColor alpha="0.498039215686275"/>
+                          <SolidColor/>
                         </fill>
                       </SolidStroke>
                     </StrokeStyle>
